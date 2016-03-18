@@ -59,7 +59,7 @@ public int binarySearch(int catNumToFind,int nLow, int nHigh)
 {
     //complete this method
     int guess = (nHigh + nLow)/2; 
-    if(nLow >= nHigh)
+    if(nLow > nHigh)
     {
         return -1;
     }   
